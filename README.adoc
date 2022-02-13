@@ -1,6 +1,5 @@
 = GoLang Boot Camp
 
-
 == Main Concepts
 
 . Package means Project or Workspace
@@ -28,6 +27,13 @@
 go run main.go
 ----
 
-== Go: The Complete Developer's Guide
+== Go Unit Test
 
+[source, bash]
+----
+go test deck_test.go main.go deck.go 
+----
+
+
+== Go: The Complete Developer's Guide
 

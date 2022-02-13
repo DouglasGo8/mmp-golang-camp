@@ -14,12 +14,25 @@ func main() {
 	//cards.print() // Print
 	//fmt.Println(cards)
 
-	cards := newDeck() //
+	//cards := newDeck() //
 
+	//cards.print() // Print
+
+	//hand, remain := deal(cards, 5)
+
+	//hand.print()   // Print
+	//remain.print() // Print
+
+	//fmt.Println(cards.toString())
+
+	//cards.saveToFile("my_cards")
+
+	//cards := newDeckFromFile("my_cards")
+
+	//cards.print() // Print
+
+	cards := newDeck()
+
+	cards.shuffle()
 	cards.print() // Print
-
 }
-
-/*func newCard() string {
-	return "Five of Diamonds"
-}*/
